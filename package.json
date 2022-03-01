@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/markonorth2/book_library/issues"
   },
-  "homepage": "https://github.com/markonorth2/book_library#readme"
+  "homepage": "https://github.com/markonorth2/book_library#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
