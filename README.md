@@ -6,11 +6,9 @@ Using REST
 
 ## Tech Stack
 
-
-
 - JavaScript
 - Node.js
 - Express
 - EJS
-- express-ejs-layouts
+- MongoDB
 
